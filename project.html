@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 0px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    main {
+        margin-top: 0em;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+            url(/images/jj.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    h4 {
+        margin-left: 2em;
+        margin-top: -0.01em;
+        color: orange;
+    }
+
+    .span {
+        color: white;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-right: 1em;
+    }
+
+    nav ul {
+        display: flex;
+        margin-right: 3em;
+        margin-top: -0.012em;
+    }
+
+    ul li:first-child {
+        color: orange;
+    }
+
+    main div {
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    p {
+        margin-top: -1em;
+        font-size: 0.75em;
+    }
+
+    span {
+        color: orange;
+    }
+
+    button {
+        border-radius: 50px 50px 50px 50px;
+        padding: 0.4em 0.9em;
+        border: none;
+        font-size: 0.5em;
+    }
+
+    button:nth-of-type(1) {
+        background-color: orange;
+        color: white;
+    }
+
+    .flex_container {
+        margin-top: -1.5em;
+        background-color: orange;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    #email_holder {
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    ::placeholder {
+        color: white;
+        font-size: 0.75em;
+    }
+
+    #img {
+        width: 1.85em;
+        height: 1.6em;
+        margin-bottom: -0.66em;
+    }
+
+    #input {
+        border: white;
+        background-color: orange;
+        color: white;
+        padding-left: 0.4em;
+        padding-bottom: 0.4em;
+    }
+
+    .secDiv {
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    section h4 {
+        color: black;
+        font-family: sans-serif;
+    }
+
+    .articleDiv {
+        margin-top: 2em;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    #item1,
+    #item2,
+    #item3 {
+        border: none;
+        margin: 0.5em;
+        padding-left: 0.5em;
+        box-shadow: 5px 5px 5px 2px rgba(185, 181, 181, 0.308);
+        width: 15em;
+    }
+
+    .flex_box {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: 2em;
+        margin-bottom: 0px;
+        margin-top: 2em;
+        padding: 2em;
+    }
+
+    img {
+        width: 15em;
+        height: 10em;
+    }
+
+    .progress_Bar {
+        margin-left: 2em;
+    }
+
+    .progress_Bar p {
+        font-size: 10px;
+    }
+
+    .progress_Bar h4 {
+        margin-left: -0em;
+        color: black;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    .grp_bar {
+        margin-top: -1em;
+    }
+
+    .grp_bar1,
+    .grp_bar2,
+    .grp_bar3 {
+        margin-top: -0.5em;
+    }
+
+    #brand {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bar {
+        margin-top: -1.5em;
+        width: 15em;
+        height: 0.35em;
+        background-color: orange;
+        border-radius: 50px 50px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    footer {
+        background-color: rgba(185, 181, 181, 0.108);
+    }
+</style>
+
+<body>
+    <main>
+        <nav>
+            <h4>S<span class="span">OXOLO</span></h4>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Terms</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div>
+            <h2>THE BEST <Span>DIGITAL MARKETING </Span>& BRANDING</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, temporibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, temporibus!</p>
+            <button type="button">Get Started</button>
+            <button type="button">Watch Now</button>
+        </div>
+    </main>
+    <div class="flex_container">
+        <h5>Join the soxolo sign up for the latest updates and news</h5>
+        <div id="email_holder">
+            <input type="text" placeholder="home@gmail.com" id="input">
+            <div>
+                <img id="img" src="/images/imd.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="secDiv">
+            <h4>Welcome to Soxolo</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, nulla?</p>
+        </div>
+        <div class="articleDiv">
+            <article id="item1">
+                <h6>Creative Designs</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, recusandae!</p>
+            </article>
+            <article id="item2">
+                <h6>Friendly Codes</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, assumenda.</p>
+            </article>
+            <article id="item3">
+                <h6>Fast Support</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolores.</p>
+
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex_box">
+            <div class="image">
+                <img src="/images/fast2.jpg" alt="">
+            </div>
+            <div class="progress_Bar">
+                <h4>About Exolot</h4>
+                <p>We Are Digital <span>Marketing & Branding</p>
+                </p>
+                <div class="grp_bar">
+                    <div id="brand">
+                        <h6>Branding</h6>
+                        <h6>95%</h6>
+                    </div>
+                    <div id="bar">
+
+                    </div>
+                </div>
+                <div class="grp_bar1">
+                    <div id="brand">
+                        <h6>Marketing</h6>
+                        <h6>98%</h6>
+                    </div>
+                    <div id="bar">
+
+                    </div>
+                </div>
+                <div class="grp_bar2">
+                    <div id="brand">
+                        <h6>Web Design</h6>
+                        <h6>99%</h6>
+                    </div>
+                    <div id="bar">
+
+                    </div>
+                </div>
+                <div class="grp_bar3">
+                    <div id="brand">
+                        <h6>Web Development</h6>
+                        <h6>97%</h6>
+                    </div>
+                    <div id="bar">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
